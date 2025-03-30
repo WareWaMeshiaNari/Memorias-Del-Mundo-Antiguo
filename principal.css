@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url('material/fondo.jpg');
+    background-size:initial;
+    background-position: calc(5);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.148);
+    border: 2px solid rgb(0, 217, 255);
+    padding: 1px;
+    border-radius: 0px;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.148);
+    border: 2px solid rgb(0, 217, 255);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+section h1, p {
+    text-align: center;
+    color: aliceblue;
+}
+
+button {
+    background-color: #3dc200;
+    border: 5PX solid blue;
+    color: white;
+    padding: 20px 100px;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ff33;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
